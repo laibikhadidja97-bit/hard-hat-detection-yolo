@@ -1,0 +1,15 @@
+# The dataset is ~1.3 GB — fetch it with `python get_data.py` instead of committing it.
+data/
+
+# Ultralytics writes every checkpoint, curve and validation run here. What is worth
+# keeping (best.pt, the figures, the metrics) is copied into results/ by evaluate.py.
+runs/
+train.log
+yolov8*.pt
+yolo11*.pt
+
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
